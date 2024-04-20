@@ -1,9 +1,9 @@
 import { Artista } from "../business/entities/Artista"
 
 export class ArtistaResponseDto {
-    id: string
-    name: string
-    email: string
+    id: string;
+    name: string;
+    email: string;
 
     public static from(artista: Artista): ArtistaResponseDto{
         const artistaResponseDto = new ArtistaResponseDto();

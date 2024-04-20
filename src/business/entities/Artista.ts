@@ -4,8 +4,9 @@ export class Artista extends Base {
     email: string
     name: string 
     senha: string
-    isArtist: boolean; // Flag para indicar se o usuário é um artista
+    isArtist: boolean; // Flag para indicar se o usuário é um artista,
     artistDetails?: ArtistDetails; // Detalhes adicionais do artista    
+    adm: false;
 }
 
 interface ArtistDetails{
